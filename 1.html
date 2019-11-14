@@ -10,6 +10,7 @@
     h1{
       text-align: center;
       border-bottom: 3px solid gray;
+      padding: 20px;
       margin: 0;
     }
 
@@ -25,9 +26,10 @@
       font-size: 30px;
     }
 
-    ol{
+    ul{
       border-right: 3px solid gray;
       padding-right: 20px;
+      padding-top: 40px;
       width: 200px;
       margin:0;
     }
@@ -36,6 +38,20 @@
   grid-template-columns: 300px 1fr;
 }
 
+@media (max-width: 600px){
+  #grid{
+    display: block;
+  }
+  #article{
+    border:none;
+  }
+  h1{
+    border-bottom: none;
+  }
+  ul{
+    border-right: none;
+  }
+}
 
     </style>
 
@@ -46,13 +62,13 @@
 
     <h1><a href="index.html">💙내가 사랑하는 고양이💙</a></h1>
     <div id="grid">
-        <ol>
+        <ul>
           <li><a href="1.html" style="color:pink; text-decoration:underline;">냥젤리</a></li>
           <li><a href="2.html">꾹꾹이</a></li>
           <li><a href="3.html">옆모습</a></li>
-        </ol>
+        </ul>
     <div id="article">
-     <h2>냥젤리</h2><br>
+     <h2>(❁´▽`❁) 냥젤리 (❁´▽`❁)</h2><br>
      <p>냥젤리라 <strong>말랑말랑</strong>한 고양이의 발바닥을 말합니다.</p>
      <p>연분홍의 젤리처럼 생겨  냥젤리라는 이름이 붙었습니다.</p>
      <p>냥젤리 이미지를 검색창에 검색해보면 정말 기분 좋은 경험을 할 수 있습니다. 컴퓨터 화면이 냥젤리로 가득 차기 때문입니다.</p>
