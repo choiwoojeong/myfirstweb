@@ -3,60 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>나의 첫번째 웹</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap&subset=korean" rel="stylesheet">
+        <link rel="stylesheet" href="mystyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap&subset=korean" rel="stylesheet">
 
     <style media="screen">
 
-    body{
-      font-family: Sunflower;
-    }
-
-    h1{
-      text-align: center;
-      border-bottom: 3px solid gray;
-      padding: 20px;
-      margin: 0;
-    }
-
-    a{
-      color: black;
-      text-decoration: none;
-        font-size: 30px;
-    }
-
-
-    h2{
-      color: pink;
+          h2{
+      color: #D87093;
       font-size: 30px;
-    }
+      }
 
-    ul{
-      border-right: 3px solid gray;
-      padding-right: 20px;
-      padding-top: 40px;
-      width: 200px;
-      margin:0;
-    }
-#grid{
-  display: grid;
-  grid-template-columns: 300px 1fr;
-}
-
-@media (max-width: 600px){
-  #grid{
-    display: block;
-  }
-  #article{
-    border:none;
-  }
-  h1{
-    border-bottom: none;
-  }
-  ul{
-    border-right: none;
-  }
-}
+      .냥젤리{
+      width: 400px;
+      }
 
     </style>
 
@@ -68,7 +27,7 @@
     <h1><a href="index.html" style="font-size: 50px;">💙내가 사랑하는 고양이💙</a></h1>
     <div id="grid">
         <ul>
-          <li><a href="1.html" style="color:pink; font-weight: bold;">냥젤리🐾</a></li>
+          <li><a href="1.html" style="color:#D87093; font-weight: bold;">냥젤리🐾</a></li>
           <li><a href="2.html">꾹꾹이</a></li>
           <li><a href="3.html">옆모습</a></li>
         </ul>
@@ -78,7 +37,7 @@
      <p>연분홍의 젤리처럼 생겨  냥젤리라는 이름이 붙었습니다.</p>
      <p>냥젤리 이미지를 검색창에 검색해보면 정말 기분 좋은 경험을 할 수 있습니다. 컴퓨터 화면이 냥젤리로 가득 차기 때문입니다.</p>
      <p>또한 기분이 우울할 때 따끈한 냥젤리를 만지면 기분이 좋아질 수 있습니다.</p>
-     <img src="냥젤리.jpg_large" alt="냥젤리">
+     <img class="냥젤리" src="냥젤리.jpg_large" alt="냥젤리">
    </div>
   </div>
 
