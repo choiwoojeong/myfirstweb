@@ -11,13 +11,34 @@ h2{
   color: MediumSeaGreen;
   font-size: 30px;
 }
-
+p{
+  font-weight: bold;
+}
+ol{
+  font-weight: bold;
+}
 
 .옆모습{
   width: 500px;
 }
-
-
+#grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+#article{
+  display: grid;
+  font-size: 20px;
+  margin: 0;
+  grid-template-columns: 550px 1fr;
+}
+#killing{
+  text-align: center;
+  display: grid;
+  width: 280px;
+  height: 180px;
+  border: 3px dotted MediumSeaGreen;
+  border-radius: 80px / 60px;
+}
 </style>
 
   </head>
@@ -35,12 +56,14 @@ h2{
     <br>
     <br>
     <img class="옆모습" src="고양이옆모습.jpg" alt="고양이 옆태">
+    <div id="killing">
     <p><고양이 옆태의 킬링 포인트></p>
     <ol>
       <li>동글동글한 머리</li>
       <li>앙증맞은 코</li>
       <li>유리구슬 같은 눈망울</li>
     </ol>
+  </div>
 </div>
 </div>
   </body>
