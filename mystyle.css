@@ -25,6 +25,25 @@ ul{
 p{
   font-weight: bold;
 }
+#grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+#grid ul{
+  padding-left: 33px;
+}
+#grid #article{
+  padding-left: 25px;
+  font-size: 20px;
+  margin: 0;
+}
+#killing{
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  border: 3px dotted MediumSeaGreen;
+  border-radius: 80px / 60px;
+}
 
 @media (max-width: 600px){
   #grid{
